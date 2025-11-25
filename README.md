@@ -1,4 +1,4 @@
-Matriz LED 8x8 con ESP8266 — Control Web, Keypad y Pantalla OLED
+Matriz LED 8x8 con ESP8266 - Control Web, Keypad y Pantalla OLED
 
 Proyecto completo que integra una matriz NeoPixel 8x8, un ESP8266, un keypad físico 4×4 y una pantalla OLED I2C, todo sincronizado con una interfaz web en tiempo real.
 
@@ -23,15 +23,15 @@ Sincronización cada 0,5 s con la matriz real.
 
 8 → Mover cursor abajo
 
-4 → Izquierda
+4 → Mover cursor izquierda
 
-6 → Derecha
+6 → Mover cursor derecha
 
 5 → Pintar / borrar sin mover el cursor
 
-C (F3-C3) → Cambiar color
+9 → Cambiar color
 
-7 (F3-C1) → Reiniciar matriz
+7 → Reiniciar matriz
 
 Cursor parpadeante en gris
 
@@ -59,30 +59,25 @@ Fuente de alimentación 5V
 
 Cables Dupont
 
-📁 Estructura del proyecto
-/MatrizLED_Keypad_ESP8266
-│── MatrizLED_Keypad_ESP8266.ino   # Código principal
-│── README.md                       # Documentación del proyecto
-
 🚀 Cómo desplegar el proyecto
 
-Instalar Arduino IDE.
+  1.Instalar Arduino IDE.
 
-Añadir soporte para ESP8266.
+  2.Añadir soporte para ESP8266.
 
-Instalar las librerías:
+  3.Instalar las librerías:
 
-Adafruit NeoPixel
+    Adafruit NeoPixel
 
-Adafruit GFX
+    Adafruit GFX
 
-Adafruit SSD1306
+    Adafruit SSD1306
 
-Configurar tu SSID y contraseña WiFi.
+  4.Configurar tu SSID y contraseña WiFi.
 
-Subir el sketch al ESP8266.
+  5.Subir el sketch al ESP8266.
 
-Conectar a la IP mostrada por el ESP8266.
+  6.Conectar a la IP mostrada por el ESP8266.
 
 ¡Listo!
 

@@ -37,15 +37,16 @@ Esta es la matriz keypad 4x4 empleada en el proyecto. En la matriz led física s
 
 ### 🧩 Hardware utilizado
 
-* ESP8266 (NodeMCU)
+* ESP8266 (NodeMCU)  
+![ESP8266](./images/ESP8266.webp)
 
-* Matriz NeoPixel 8×8 WS2812B
+* Matriz NeoPixel 8×8 WS2812B  
 
-* Pantalla OLED I2C SSD1306
+* Pantalla OLED I2C SSD1306  
 
-* Matriz Keypad 4×4
+* Matriz Keypad 4×4  
 
-* Cables Dupont
+* Cables Dupont  
 
 🚀 Cómo desplegar el proyecto
 

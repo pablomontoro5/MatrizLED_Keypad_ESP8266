@@ -61,29 +61,33 @@ Esta es la matriz keypad 4x4 empleada en el proyecto. En la matriz led física s
 
 ![protoboard](./images/protoboard.webp)
 
-🚀 Cómo desplegar el proyecto
+### 🚀 Cómo desplegar el proyecto
 
-  1.Instalar Arduino IDE.
+1. Instalar Arduino IDE.
 
-  2.Añadir soporte para ESP8266.
+2. Carga el código **Matriz_LED_ESP8266_Web_Keypad_OLED** de la carpeta [📁src](./src)
 
-  3.Instalar las librerías:
+3. Selecciona la tabla ESP8266 conectada.
 
-    Adafruit NeoPixel
+4. Instalar las librerías:
 
-    Adafruit GFX
+* Adafruit NeoPixel
+* Adafruit GFX
+* Adafruit SSD1306
 
-    Adafruit SSD1306
+5. Activa el punto de acceso de tu movil y conéctalo con tu equipo.
 
-  4.Configurar tu SSID y contraseña WiFi.
+6. Configura tu SSID y contraseña WiFi en el código que tenga tu dispositivo móvil.
 
-  5.Subir el sketch al ESP8266.
+7. Carga el código.
 
-  6.Conectar a la IP mostrada por el ESP8266.
+8. Obtén la IP mostrada por el ESP8266 en consola del IDE.
 
-¡Listo!
+9. Introduce la IP proporcionada en el navegador.
 
-💡 Autores
+**¡Listo!**
 
-David Lorente Wagner
-Pablo Javier Montoro Bermúdez
+### 👥 Autores
+
+**David Lorente Wagner**
+**Pablo Javier Montoro Bermúdez**

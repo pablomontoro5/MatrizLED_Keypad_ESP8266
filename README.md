@@ -10,7 +10,7 @@ Proyecto completo que integra una matriz NeoPixel 8x8, un ESP8266, un keypad fí
 
 * Interfaz de la Matriz 8x8.
 * Permite la selección de color.
-* Pintado y borrado de cualquier pixel de la matriz.
+* Pintado y borrado de cualquier píxel de la matriz.
 * Reinicio completo de los colores de la matriz.
 * Sincronización cada 0.5 segundos con la matriz real.
 
@@ -31,8 +31,8 @@ Esta es la matriz keypad 4×4 empleada en el proyecto. En la matriz LED física 
 ### 🟣 Pantalla OLED SSD1306
 
 * Esta pantalla muestra siempre el color actual.
-* Si se pulsa la tecla 9 en la matriz keypad, cambia el color seleccionado para pintar los led de la matriz y se muestra en la pantalla.
-* Si se pulsa la tecla 7 en la matriz keypad, se muestra un mensaje "Reiniciando matriz..." y limpia la matriz de colores, apagando todos los leds.
+* Si se pulsa la tecla 9 en la matriz keypad, cambia el color seleccionado para pintar los LED de la matriz y se muestra en la pantalla.
+* Si se pulsa la tecla 7 en la matriz keypad, se muestra un mensaje "Reiniciando matriz..." y limpia la matriz de colores, apagando todos los LEDs.
 * Todo se actualiza en tiempo real, tanto la pantalla física como en la selección de colores en la web.
 
 ### 🧩 Hardware utilizado
@@ -61,13 +61,13 @@ Esta es la matriz keypad 4×4 empleada en el proyecto. En la matriz LED física 
 
 ![protoboard](./images/protoboard.webp)
 
-### 🚀 Cómo desplegar el proyecto
+## 🚀 Cómo desplegar el proyecto
 
-1. Instalar Arduino IDE.
+1. Instalar **Arduino IDE**.
 
 2. Carga el código **Matriz_LED_ESP8266_Web_Keypad_OLED** de la carpeta [📁src](./src)
 
-3. Selecciona la placa ESP8266 conectada.
+3. Selecciona la placa **ESP8266** conectada.
 
 4. Instalar las librerías:
 
@@ -77,17 +77,21 @@ Esta es la matriz keypad 4×4 empleada en el proyecto. En la matriz LED física 
 
 5. Activa el punto de acceso de tu movil y conéctalo con tu equipo.
 
-6. Configura y establece tu SSID y contraseña WiFi en el código, para que sea correspondiente al punto de acceso de tu móvil.
+6. Configura y establece tu **SSID y contraseña WiFi** en el código, para que sea correspondiente al punto de acceso de tu móvil.
 
 7. Carga el código.
 
-8. Obtén la IP mostrada por el ESP8266 en consola del IDE.
+8. Obtén la IP mostrada por el **ESP8266** en consola del IDE.
 
 9. Introduce la IP proporcionada en el navegador.
 
 **¡Listo!**
 
-### 👥 Autores
+## 📄 Documentación
+
+Para obtener más información sobre el funcionamiento y desarrollo del proyecto, consulta la carpeta [📁docs](./docs), donde se encuentra la memoria del proyecto.
+
+## 👥 Autores
 
 **- David Lorente Wagner**  
 **- Pablo Javier Montoro Bermúdez**

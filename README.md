@@ -16,23 +16,17 @@ Proyecto completo que integra una matriz NeoPixel 8x8, un ESP8266, un keypad fí
 
 ### 🟢 Control desde el keypad físico
 
-2 → Mover cursor arriba
+Esta es la matriz keypad 4x4 empleada en el proyecto. En la matriz led física se muestra un led encendido parpadeando en gris, que actúa como un cursor y empleando ciertas teclas asignadas, podemos realizar lo siguiente:
 
-8 → Mover cursor abajo
+![Matriz Keypad 4x4](./images/matrizkeypad4x4.webp)
 
-4 → Mover cursor izquierda
-
-6 → Mover cursor derecha
-
-5 → Pintar / borrar sin mover el cursor
-
-9 → Cambiar color
-
-7 → Reiniciar matriz
-
-Cursor parpadeante en gris
-
-Movimiento con debounce para evitar pulsaciones dobles
+2 → Mover cursor arriba  
+8 → Mover cursor abajo  
+4 → Mover cursor izquierda  
+6 → Mover cursor derecha  
+5 → Pintar / borrar sin mover el cursor  
+9 → Cambiar color  
+7 → Reiniciar matriz  
 
 🟣 Pantalla OLED SSD1306
 

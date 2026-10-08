@@ -2,21 +2,21 @@
 
 ## 📝 Descripción breve
 
-Proyecto completo que integra una matriz NeoPixel 8x8, un ESP8266, un keypad físico 4×4 y una pantalla OLED I2C, todo sincronizado con una interfaz web en tiempo real. El sistema permite controlar la matriz desde el navegador o desde el keypad, mostrando siempre el estado actualizado tanto en la web como en el dispositivo.
+Proyecto completo que integra una matriz NeoPixel 8x8, un ESP8266, un keypad físico 4x4 y una pantalla OLED I2C, todo sincronizado con una interfaz web en tiempo real. El sistema permite controlar la matriz desde el navegador o desde el keypad, mostrando siempre el estado actualizado tanto en la web como en el dispositivo.
 
 ## ✨ Características principales
 
 ### 🔵 Control desde la web
 
-* Matriz 8×8 completamente colore.
+* Interfaz de la Matriz 8x8.
 * Permite la selección de color.
 * Pintado y borrado de cualquier pixel de la matriz.
 * Reinicio completo de los colores de la matriz.
-* Sincronización cada 0,5 s con la matriz real.
+* Sincronización cada 0.5 segundos con la matriz real.
 
 ### 🟢 Control desde el keypad físico
 
-Esta es la matriz keypad 4x4 empleada en el proyecto. En la matriz led física se muestra un led encendido parpadeando en gris, que actúa como un cursor y empleando ciertas teclas asignadas, podemos realizar lo siguiente:
+Esta es la matriz keypad 4x4 empleada en el proyecto. En la matriz led física se muestra un led encendido parpadeando en gris, que actúa como un cursor y mediante las siguientes teclas:
 
 ![Matriz Keypad 4x4](./images/matrizkeypad4x4.webp)
 
@@ -67,7 +67,7 @@ Esta es la matriz keypad 4x4 empleada en el proyecto. En la matriz led física s
 
 2. Carga el código **Matriz_LED_ESP8266_Web_Keypad_OLED** de la carpeta [📁src](./src)
 
-3. Selecciona la tabla ESP8266 conectada.
+3. Selecciona la placa ESP8266 conectada.
 
 4. Instalar las librerías:
 
@@ -77,7 +77,7 @@ Esta es la matriz keypad 4x4 empleada en el proyecto. En la matriz led física s
 
 5. Activa el punto de acceso de tu movil y conéctalo con tu equipo.
 
-6. Configura tu SSID y contraseña WiFi en el código que tenga tu dispositivo móvil.
+6. Configura y establece tu SSID y contraseña WiFi en el código, para que sea correspondiente al punto de acceso de tu móvil.
 
 7. Carga el código.
 
@@ -89,5 +89,5 @@ Esta es la matriz keypad 4x4 empleada en el proyecto. En la matriz led física s
 
 ### 👥 Autores
 
-**David Lorente Wagner**
-**Pablo Javier Montoro Bermúdez**
+**- David Lorente Wagner**  
+**- Pablo Javier Montoro Bermúdez**

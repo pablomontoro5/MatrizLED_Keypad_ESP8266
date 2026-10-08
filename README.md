@@ -16,7 +16,7 @@ Proyecto completo que integra una matriz NeoPixel 8x8, un ESP8266, un keypad fí
 
 ### 🟢 Control desde el keypad físico
 
-Esta es la matriz keypad 4x4 empleada en el proyecto. En la matriz led física se muestra un led encendido parpadeando en gris, que actúa como un cursor y mediante las siguientes teclas:
+Esta es la matriz keypad 4×4 empleada en el proyecto. En la matriz LED física se muestra un LED encendido parpadeando en gris que actúa como cursor. Mediante las siguientes teclas podemos realizar las distintas acciones:
 
 ![Matriz Keypad 4x4](./images/matrizkeypad4x4.webp)
 

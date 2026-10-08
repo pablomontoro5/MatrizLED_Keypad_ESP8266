@@ -1,23 +1,20 @@
-Matriz LED 8x8 con ESP8266 - Control Web, Keypad y Pantalla OLED
+# Matriz LED 8x8 con ESP8266 - Control Web, Keypad y Pantalla OLED
 
-Proyecto completo que integra una matriz NeoPixel 8x8, un ESP8266, un keypad físico 4×4 y una pantalla OLED I2C, todo sincronizado con una interfaz web en tiempo real.
+## 📝 Descripción breve
 
-El sistema permite controlar la matriz desde el navegador o desde el keypad, mostrando siempre el estado actualizado tanto en la web como en el dispositivo.
+Proyecto completo que integra una matriz NeoPixel 8x8, un ESP8266, un keypad físico 4×4 y una pantalla OLED I2C, todo sincronizado con una interfaz web en tiempo real. El sistema permite controlar la matriz desde el navegador o desde el keypad, mostrando siempre el estado actualizado tanto en la web como en el dispositivo.
 
-✨ Características principales
-🔵 Control desde la web
+## ✨ Características principales
 
-Matriz 8×8 clicable.
+### 🔵 Control desde la web
 
-Selección de color.
+* Matriz 8×8 completamente colore.
+* Permite la selección de color.
+* Pintado y borrado de cualquier pixel de la matriz.
+* Reinicio completo de los colores de la matriz.
+* Sincronización cada 0,5 s con la matriz real.
 
-Pintado y borrado.
-
-Reinicio completo.
-
-Sincronización cada 0,5 s con la matriz real.
-
-🟢 Control desde el keypad físico
+### 🟢 Control desde el keypad físico
 
 2 → Mover cursor arriba
 

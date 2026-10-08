@@ -20,21 +20,20 @@ Esta es la matriz keypad 4x4 empleada en el proyecto. En la matriz led física s
 
 ![Matriz Keypad 4x4](./images/matrizkeypad4x4.webp)
 
-2 → Mover cursor arriba  
-8 → Mover cursor abajo  
-4 → Mover cursor izquierda  
-6 → Mover cursor derecha  
-5 → Pintar / borrar sin mover el cursor  
-9 → Cambiar color  
-7 → Reiniciar matriz  
+* 2 → Mover cursor arriba  
+* 8 → Mover cursor abajo  
+* 4 → Mover cursor izquierda  
+* 6 → Mover cursor derecha  
+* 5 → Pintar / borrar sin mover el cursor  
+* 9 → Cambiar color  
+* 7 → Reiniciar matriz  
 
-🟣 Pantalla OLED SSD1306
+### 🟣 Pantalla OLED SSD1306
 
-Muestra siempre el color actual.
-
-Mensaje de reinicio.
-
-Actualización automática al cambiar color desde la web o keypad.
+* Esta pantalla muestra siempre el color actual.
+* Si se pulsa la tecla 9 en la matriz keypad, cambia el color seleccionado para pintar los led de la matriz y se muestra en la pantalla.
+* Si se pulsa la tecla 7 en la matriz keypad, se muestra un mensaje "Reiniciando matriz..." y limpia la matriz de colores, apagando todos los leds.
+* Todo se actualiza en tiempo real, tanto la pantalla física como en la selección de colores en la web.
 
 🧩 Hardware utilizado
 

@@ -35,19 +35,17 @@ Esta es la matriz keypad 4x4 empleada en el proyecto. En la matriz led física s
 * Si se pulsa la tecla 7 en la matriz keypad, se muestra un mensaje "Reiniciando matriz..." y limpia la matriz de colores, apagando todos los leds.
 * Todo se actualiza en tiempo real, tanto la pantalla física como en la selección de colores en la web.
 
-🧩 Hardware utilizado
+### 🧩 Hardware utilizado
 
-ESP8266 (NodeMCU)
+* ESP8266 (NodeMCU)
 
-Matriz NeoPixel 8×8 WS2812B
+* Matriz NeoPixel 8×8 WS2812B
 
-Pantalla OLED I2C SSD1306
+* Pantalla OLED I2C SSD1306
 
-Keypad 4×4
+* Matriz Keypad 4×4
 
-Fuente de alimentación 5V
-
-Cables Dupont
+* Cables Dupont
 
 🚀 Cómo desplegar el proyecto
 
